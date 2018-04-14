@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5C4EC42081FB410080A84C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4EC32081FB410080A84C /* AppDelegate.m */; };
+		6B5C4EC62081FB430080A84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C4EC52081FB430080A84C /* Assets.xcassets */; };
+		6B5C4ECC2081FB430080A84C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ECB2081FB430080A84C /* main.m */; };
+		6B5C4ED52081FCC00080A84C /* DMMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */; };
+		6B5C4ED82081FD450080A84C /* DMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ED72081FD450080A84C /* DMRootViewController.m */; };
+		942D84091481031D4382CADD /* libPods-DMMacFileView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E623FE9A6844A1F1297172 /* libPods-DMMacFileView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11E623FE9A6844A1F1297172 /* libPods-DMMacFileView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMMacFileView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		514B0A3ECCAD792A1574F4EF /* Pods-DMMacFileView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacFileView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacFileView/Pods-DMMacFileView.release.xcconfig"; sourceTree = "<group>"; };
+		6B5C4EBF2081FB410080A84C /* DMMacFileView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMMacFileView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5C4EC22081FB410080A84C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B5C4EC32081FB410080A84C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B5C4EC52081FB430080A84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5C4ECA2081FB430080A84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5C4ECB2081FB430080A84C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B5C4ECD2081FB430080A84C /* DMMacFileView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DMMacFileView.entitlements; sourceTree = "<group>"; };
+		6B5C4ED32081FCC00080A84C /* DMMainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMMainWindowController.h; sourceTree = "<group>"; };
+		6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMainWindowController.m; sourceTree = "<group>"; };
+		6B5C4ED62081FD450080A84C /* DMRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRootViewController.h; sourceTree = "<group>"; };
+		6B5C4ED72081FD450080A84C /* DMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRootViewController.m; sourceTree = "<group>"; };
+		79A14A46920F30EE6F69E8B5 /* Pods-DMMacFileView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacFileView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacFileView/Pods-DMMacFileView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5C4EBC2081FB410080A84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942D84091481031D4382CADD /* libPods-DMMacFileView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF4B61E444D17791BB35180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79A14A46920F30EE6F69E8B5 /* Pods-DMMacFileView.debug.xcconfig */,
+				514B0A3ECCAD792A1574F4EF /* Pods-DMMacFileView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B5C4EB62081FB410080A84C = {
+			isa = PBXGroup;
+			children = (
+				6B5C4EC12081FB410080A84C /* DMMacFileView */,
+				6B5C4EC02081FB410080A84C /* Products */,
+				4BF4B61E444D17791BB35180 /* Pods */,
+				9362CB97774C148B50D1321A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5C4EC02081FB410080A84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C4EBF2081FB410080A84C /* DMMacFileView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5C4EC12081FB410080A84C /* DMMacFileView */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C4EC22081FB410080A84C /* AppDelegate.h */,
+				6B5C4EC32081FB410080A84C /* AppDelegate.m */,
+				6B5C4ED32081FCC00080A84C /* DMMainWindowController.h */,
+				6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */,
+				6B5C4ED62081FD450080A84C /* DMRootViewController.h */,
+				6B5C4ED72081FD450080A84C /* DMRootViewController.m */,
+				6B5C4EC52081FB430080A84C /* Assets.xcassets */,
+				6B5C4ECA2081FB430080A84C /* Info.plist */,
+				6B5C4ECB2081FB430080A84C /* main.m */,
+				6B5C4ECD2081FB430080A84C /* DMMacFileView.entitlements */,
+			);
+			path = DMMacFileView;
+			sourceTree = "<group>";
+		};
+		9362CB97774C148B50D1321A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E623FE9A6844A1F1297172 /* libPods-DMMacFileView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5C4EBE2081FB410080A84C /* DMMacFileView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5C4ED02081FB430080A84C /* Build configuration list for PBXNativeTarget "DMMacFileView" */;
+			buildPhases = (
+				7F2CBE768270D19BBC11047C /* [CP] Check Pods Manifest.lock */,
+				6B5C4EBB2081FB410080A84C /* Sources */,
+				6B5C4EBC2081FB410080A84C /* Frameworks */,
+				6B5C4EBD2081FB410080A84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMMacFileView;
+			productName = DMMacFileView;
+			productReference = 6B5C4EBF2081FB410080A84C /* DMMacFileView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5C4EB72081FB410080A84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lbq;
+				TargetAttributes = {
+					6B5C4EBE2081FB410080A84C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 6B5C4EBA2081FB410080A84C /* Build configuration list for PBXProject "DMMacFileView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5C4EB62081FB410080A84C;
+			productRefGroup = 6B5C4EC02081FB410080A84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5C4EBE2081FB410080A84C /* DMMacFileView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5C4EBD2081FB410080A84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C4EC62081FB430080A84C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F2CBE768270D19BBC11047C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMMacFileView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5C4EBB2081FB410080A84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C4ED52081FCC00080A84C /* DMMainWindowController.m in Sources */,
+				6B5C4ED82081FD450080A84C /* DMRootViewController.m in Sources */,
+				6B5C4ECC2081FB430080A84C /* main.m in Sources */,
+				6B5C4EC42081FB410080A84C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B5C4ECE2081FB430080A84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B5C4ECF2081FB430080A84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B5C4ED12081FB430080A84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A14A46920F30EE6F69E8B5 /* Pods-DMMacFileView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DMMacFileView/DMMacFileView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DMMacFileView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.DMMacFileView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B5C4ED22081FB430080A84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514B0A3ECCAD792A1574F4EF /* Pods-DMMacFileView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DMMacFileView/DMMacFileView.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DMMacFileView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.DMMacFileView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5C4EBA2081FB410080A84C /* Build configuration list for PBXProject "DMMacFileView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5C4ECE2081FB430080A84C /* Debug */,
+				6B5C4ECF2081FB430080A84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5C4ED02081FB430080A84C /* Build configuration list for PBXNativeTarget "DMMacFileView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5C4ED12081FB430080A84C /* Debug */,
+				6B5C4ED22081FB430080A84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5C4EB72081FB410080A84C /* Project object */;
+}
