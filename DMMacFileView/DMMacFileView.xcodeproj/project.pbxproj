@@ -12,6 +12,7 @@
 		6B5C4ECC2081FB430080A84C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ECB2081FB430080A84C /* main.m */; };
 		6B5C4ED52081FCC00080A84C /* DMMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */; };
 		6B5C4ED82081FD450080A84C /* DMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ED72081FD450080A84C /* DMRootViewController.m */; };
+		6B5C4EDB208200860080A84C /* DMDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4EDA208200860080A84C /* DMDirectory.m */; };
 		942D84091481031D4382CADD /* libPods-DMMacFileView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E623FE9A6844A1F1297172 /* libPods-DMMacFileView.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMainWindowController.m; sourceTree = "<group>"; };
 		6B5C4ED62081FD450080A84C /* DMRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRootViewController.h; sourceTree = "<group>"; };
 		6B5C4ED72081FD450080A84C /* DMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRootViewController.m; sourceTree = "<group>"; };
+		6B5C4ED9208200860080A84C /* DMDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMDirectory.h; sourceTree = "<group>"; };
+		6B5C4EDA208200860080A84C /* DMDirectory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMDirectory.m; sourceTree = "<group>"; };
 		79A14A46920F30EE6F69E8B5 /* Pods-DMMacFileView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacFileView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacFileView/Pods-DMMacFileView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +83,8 @@
 				6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */,
 				6B5C4ED62081FD450080A84C /* DMRootViewController.h */,
 				6B5C4ED72081FD450080A84C /* DMRootViewController.m */,
+				6B5C4ED9208200860080A84C /* DMDirectory.h */,
+				6B5C4EDA208200860080A84C /* DMDirectory.m */,
 				6B5C4EC52081FB430080A84C /* Assets.xcassets */,
 				6B5C4ECA2081FB430080A84C /* Info.plist */,
 				6B5C4ECB2081FB430080A84C /* main.m */,
@@ -189,6 +194,7 @@
 				6B5C4ED52081FCC00080A84C /* DMMainWindowController.m in Sources */,
 				6B5C4ED82081FD450080A84C /* DMRootViewController.m in Sources */,
 				6B5C4ECC2081FB430080A84C /* main.m in Sources */,
+				6B5C4EDB208200860080A84C /* DMDirectory.m in Sources */,
 				6B5C4EC42081FB410080A84C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

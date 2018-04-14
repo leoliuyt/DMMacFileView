@@ -7,16 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "DMMainWindowController.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (strong) NSWindow *window;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    DMMainWindowController *windowController = [[DMMainWindowController alloc] init];
+    [windowController showWindow:self];
+    
+    NSMenu *mainMenu = [[NSMenu alloc] initWithTitle:@"AAA"];
+    [NSApplication sharedApplication].mainMenu = mainMenu;
 }
 
 
