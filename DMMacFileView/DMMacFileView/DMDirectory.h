@@ -19,7 +19,7 @@
 @end
 
 
-@interface DMMetadata : NSObject
+@interface DMMetadata : NSObject<NSCopying>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSDate *date;

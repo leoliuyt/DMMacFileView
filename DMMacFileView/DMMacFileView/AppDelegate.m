@@ -12,7 +12,7 @@
 
 @interface AppDelegate ()
 
-//@property (strong) DMMainWindowController *windowController;
+@property (strong) DMMainWindowController *windowController;
 @property (strong) NSWindow  *window;
 @end
 
@@ -21,13 +21,13 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     
-//    DMMainWindowController *windowController = [[DMMainWindowController alloc] init];
-//    [windowController showWindow:self];
-//    self.windowController = windowController;
+    DMMainWindowController *windowController = [[DMMainWindowController alloc] init];
+    [windowController showWindow:self];
+    self.windowController = windowController;
     
-    DMRootViewController *vc = [[DMRootViewController alloc] init];
-    self.window = [NSWindow windowWithContentViewController:vc];
-     [self.window makeKeyAndOrderFront:nil];
+//    DMRootViewController *vc = [[DMRootViewController alloc] initWithNibName:@"DMRootViewController" bundle:nil];
+//    self.window = [NSWindow windowWithContentViewController:vc];
+//     [self.window makeKeyAndOrderFront:nil];
     
     NSMenu *mainMenu = [[NSMenu alloc] initWithTitle:@"AAA"];
     
@@ -59,11 +59,11 @@
     openPanel.canChooseFiles = NO;
     openPanel.canChooseDirectories = YES;
     __weak typeof(self) weakSelf = self;
-    [openPanel beginSheetModalForWindow:self.window completionHandler:^(NSModalResponse returnCode) {
+    [openPanel beginSheetModalForWindow:self.windowController.window completionHandler:^(NSModalResponse returnCode) {
         if (returnCode != NSModalResponseOK) {
             return ;
         }
-        weakSelf.window.contentViewController.representedObject = openPanel.URL;
+        weakSelf.windowController.contentViewController.representedObject = openPanel.URL;
     }];
 }
 @end

@@ -13,6 +13,8 @@
 		6B5C4ED52081FCC00080A84C /* DMMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */; };
 		6B5C4ED82081FD450080A84C /* DMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4ED72081FD450080A84C /* DMRootViewController.m */; };
 		6B5C4EDB208200860080A84C /* DMDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4EDA208200860080A84C /* DMDirectory.m */; };
+		6B5C4EE6208455610080A84C /* DMXibRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C4EE4208455610080A84C /* DMXibRootViewController.m */; };
+		6B5C4EE7208455610080A84C /* DMXibRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C4EE5208455610080A84C /* DMXibRootViewController.xib */; };
 		942D84091481031D4382CADD /* libPods-DMMacFileView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E623FE9A6844A1F1297172 /* libPods-DMMacFileView.a */; };
 		9E3F4BF1208395E9009FCBB2 /* DMNameCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3F4BF0208395E9009FCBB2 /* DMNameCellView.m */; };
 		9E3F4BF320839612009FCBB2 /* DMNameCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F4BF220839612009FCBB2 /* DMNameCellView.xib */; };
@@ -38,6 +40,9 @@
 		6B5C4ED72081FD450080A84C /* DMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRootViewController.m; sourceTree = "<group>"; };
 		6B5C4ED9208200860080A84C /* DMDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMDirectory.h; sourceTree = "<group>"; };
 		6B5C4EDA208200860080A84C /* DMDirectory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMDirectory.m; sourceTree = "<group>"; };
+		6B5C4EE3208455610080A84C /* DMXibRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMXibRootViewController.h; sourceTree = "<group>"; };
+		6B5C4EE4208455610080A84C /* DMXibRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMXibRootViewController.m; sourceTree = "<group>"; };
+		6B5C4EE5208455610080A84C /* DMXibRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMXibRootViewController.xib; sourceTree = "<group>"; };
 		79A14A46920F30EE6F69E8B5 /* Pods-DMMacFileView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMMacFileView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMMacFileView/Pods-DMMacFileView.debug.xcconfig"; sourceTree = "<group>"; };
 		9E3F4BEF208395E9009FCBB2 /* DMNameCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNameCellView.h; sourceTree = "<group>"; };
 		9E3F4BF0208395E9009FCBB2 /* DMNameCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNameCellView.m; sourceTree = "<group>"; };
@@ -98,6 +103,9 @@
 				6B5C4ED42081FCC00080A84C /* DMMainWindowController.m */,
 				6B5C4ED62081FD450080A84C /* DMRootViewController.h */,
 				6B5C4ED72081FD450080A84C /* DMRootViewController.m */,
+				6B5C4EE3208455610080A84C /* DMXibRootViewController.h */,
+				6B5C4EE4208455610080A84C /* DMXibRootViewController.m */,
+				6B5C4EE5208455610080A84C /* DMXibRootViewController.xib */,
 				9E3F4BEF208395E9009FCBB2 /* DMNameCellView.h */,
 				9E3F4BF0208395E9009FCBB2 /* DMNameCellView.m */,
 				9E3F4BF220839612009FCBB2 /* DMNameCellView.xib */,
@@ -187,6 +195,7 @@
 				9E3F4BF320839612009FCBB2 /* DMNameCellView.xib in Resources */,
 				9E3F4BFA208396E7009FCBB2 /* DMSizeCellView.xib in Resources */,
 				6B5C4EC62081FB430080A84C /* Assets.xcassets in Resources */,
+				6B5C4EE7208455610080A84C /* DMXibRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 				6B5C4ED52081FCC00080A84C /* DMMainWindowController.m in Sources */,
 				9E3F4BF6208396BA009FCBB2 /* DMDateCellView.m in Sources */,
 				9E3F4BFD208396F6009FCBB2 /* DMSizeCellView.m in Sources */,
+				6B5C4EE6208455610080A84C /* DMXibRootViewController.m in Sources */,
 				6B5C4ED82081FD450080A84C /* DMRootViewController.m in Sources */,
 				9E3F4BF1208395E9009FCBB2 /* DMNameCellView.m in Sources */,
 				6B5C4ECC2081FB430080A84C /* main.m in Sources */,

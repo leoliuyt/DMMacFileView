@@ -65,3 +65,4 @@ iOSInjectionProject/
 contents.xcworkspacedata
 IDEWorkspaceChecks.plist
 Pods/
+.DS_Store

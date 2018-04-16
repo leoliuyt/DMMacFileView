@@ -7,7 +7,10 @@
 //
 
 #import "DMNameCellView.h"
+#import "DMDirectory.h"
+@interface DMNameCellView()
 
+@end
 @implementation DMNameCellView
 
 - (void)drawRect:(NSRect)dirtyRect {

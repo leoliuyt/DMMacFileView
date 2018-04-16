@@ -58,4 +58,17 @@
     metadata.color = aColor;
     return metadata;
 }
+
+- (id)copyWithZone:(nullable NSZone *)zone
+{
+    DMMetadata *metadata = [DMMetadata allocWithZone:zone];
+    metadata.url = _url;
+    metadata.name = _name;
+    metadata.date = _date;
+    metadata.size = _size;
+    metadata.icon = _icon;
+    metadata.isFolder = _isFolder;
+    metadata.color = _color;
+    return metadata;
+}
 @end
